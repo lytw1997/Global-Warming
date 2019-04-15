@@ -1,0 +1,150 @@
+body{
+	margin:0;
+}
+
+.imagesci{
+max-width: 100%;
+max-height: 100vh;
+margin: auto;
+}
+
+
+article{
+	display:flex;
+	align-items:center;
+	text-align: justify;
+	width:90%;
+}
+
+.img1cap{
+    width:85%;
+	text-align:justify;
+	padding-left: 40px;
+}
+
+section{
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	padding:3px 0px 10px 5px;
+	margin:10px 85px 30px 40px;
+}
+
+h2{
+	text-indent: 40px;
+}
+
+.secpic{
+	width: 250px;
+	height: 200px;
+}
+
+#content{
+	display:flex;
+	margin-top: 40px;
+	margin-left: 5%;
+	margin-bottom: 100px;
+	padding-right:-30px;
+}
+
+#art{
+	width:70%;
+}
+
+.container{
+ position:relative;
+ color: white;
+ }
+ 
+ .container .center{
+ position: absolute;
+ margin: auto;
+ left: 0;
+ right: 0;
+ text-align: center;
+ width: 60%; /* Set the width of the positioned div */
+ bottom: 13%; 
+ font-size: 50px;
+ font-family: "Arial";
+ }
+
+.img2{
+	width: 90%;
+}
+
+#inside{
+    width:85%;
+	text-align:justify;
+	padding-left: 40px;
+}
+
+.sticky{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+.header {
+	overflow: hidden;
+	padding: 5px 20px 5px;
+	background: #555;
+}
+
+.header a:link, .header a:visited {
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 5px 20px 5px;
+	text-decoration: none;
+	font-size: 20px; 
+	line-height: 25px;
+	border-radius: 4px;
+}
+
+.header a.home {
+	font-size: 20px;
+	font-weight: none;
+}
+
+/* The :hover selector is used to select elements when you mouse over them. -- > */
+.header a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.header-right {
+	padding: 10px 10px;
+	float: right;
+}
+
+#side{
+	border-left: double;
+	padding-left: 40px;
+	padding-right: 40px;
+	width:20%;
+}
+
+aside{
+	border:0.5px solid gray;
+	padding:0px 10px 10px 10px;
+}
+
+a{
+	color:#000;
+}
+
+a:hover{
+	color:#00F;
+}
+
+footer{
+	color:#FFF;
+	font-size:10px;
+	background: #555;
+	position:absolute;
+	width:100%;
+	text-align:center;
+	height:60px;
+	
+}
+
+

@@ -1,0 +1,92 @@
+/*Content */
+hr {
+color: lightblue;
+}
+
+body { 
+margin:0; 
+}  
+
+.newsimages{
+max-width: 100%;
+max-height: 100vh;
+margin: auto;
+}
+
+img.default {
+position: relative;
+float: left;
+margin-right: 2%;
+}
+
+.content{
+font-size: 40px;
+font-family: "Bahnschrift";
+margin-top: 50px;
+margin-left: 10%;
+margin-bottom: 100px;
+margin-right: 10%;
+}
+
+.container{
+ position:relative;
+ color: white;
+ }
+ 
+ .container .center{
+ position: absolute;
+ margin: auto;
+ left: 0;
+ right: 0;
+ text-align: center;
+ width: 60%; /* Set the width of the positioned div */
+ bottom: 10%; 
+ font-size: 50px;
+ font-family: "Arial";
+ }
+ 
+ 
+ .articles{
+ margin-top: 50px;
+ margin-bottom: 50px;
+ }
+ 
+ p.date{
+ font: 18px Corbel;
+ margin-bottom: 5px;
+ }
+ 
+ p.title{
+ font: bold 25px Arial;
+ margin: 10px;
+ }
+ 
+ p.detail{
+ font: 20px Arial;
+ margin-bottom: 5%;
+ }
+ 
+ a:link, a:visited{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: none;
+  text-decoration: underline;
+}
+
+/*clickable button link*/
+a.button:link, a.button:visited{
+background-color:lightblue ;
+  color: black;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+a.button:hover, a.button:active{
+background-color: #008CBA;
+}
